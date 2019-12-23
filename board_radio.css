@@ -1,0 +1,50 @@
+html {
+background: url("background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+text-align: center;
+}
+
+table {
+margin: auto
+}
+
+td {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  vertical-align:middle;
+}
+
+.vertical {
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+.horizontal {
+border-bottom: 1px solid black;
+}
+
+button {
+margin: 0 auto;
+display: block;
+}
+
+.X:checked ~ p {
+border-color:green;
+border-style:solid;
+border-width:0px;
+background-color: green;
+color:white;
+}
+
+.O:checked ~ p {
+border-color:purple;
+border-style:solid;
+border-width:0px;
+background-color: purple;
+color:white;
+}
